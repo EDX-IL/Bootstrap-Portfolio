@@ -15,10 +15,10 @@ xInside create a style.css file.
 
 xCreate an images folder.
 
-Place all your images in this folder.
+# Place all your images in this folder.
 Using Bootstrap, recreate your portfolio site with the following items:
 
-A navigation bar
+#A navigation bar
 
 A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
 
