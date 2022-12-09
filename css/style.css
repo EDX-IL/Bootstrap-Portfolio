@@ -58,17 +58,14 @@ header {
     height: 10%;
   }
   
-  MyHeaderName {
-    display:block;
+  #MyHeaderName {
     color:var(--HeaderMyNameColor);
     background-color: var(--HeaderMyNameBGColor);
-/*     padding-left:1%;
-    padding-right:2%; */
     padding: .5rem 1rem;
     font:bold;  
     color:white;  
     text-align: center;   
-    
+    font-size: medium;
     
   
   }
