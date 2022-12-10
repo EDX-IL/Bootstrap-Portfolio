@@ -70,12 +70,14 @@ header {
   #MyHeaderName {
     color:var(--HeaderMyNameColor);
     background-color: var(--HeaderMyNameBGColor);
-     font:bold;  
-    text-align: center;   
-    font-size: medium;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important; 
+    font-size: large;
     height: var(--NavHeight);
-   
-  
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
   }
 
   #WCH {
@@ -91,7 +93,24 @@ header {
   .nav-item {
 
     height: 50px;
+    
   }
+
+NavContainer{
+   display: flex;
+  flex-direction: row;
+  height:var(--NavHeight);
+  align-items:flex-end;
+  margin-left: auto;
+  
+}
+
+  .nav-link {
+    padding: .5rem .5rem !important;
+    align-items: center ip !important;
+    color:aqua;
+    
+  } 
 
 a{height: var(--NavHeight);}
 
@@ -99,7 +118,9 @@ a{height: var(--NavHeight);}
     height: var(--NavHeight);
   }
 
-
+.nav-right {
+  align-content:flex-end;
+}
 
   nav ul {
     height: var(--NavHeight);
