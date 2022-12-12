@@ -97,8 +97,8 @@ margin: 0 !important;
 
 
 
-Main{
-  flex:grid;
+.cMain{
+  display:grid;
 
 }
  
