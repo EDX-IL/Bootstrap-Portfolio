@@ -97,13 +97,13 @@ margin: 0 !important;
 
 
 
-.cMain{
+Main{
   flex:grid;
 
 }
  
 
-.cWork{
+#Work{
 
     background-color: green;
     font-size: large;
@@ -111,7 +111,7 @@ margin: 0 !important;
 }
 
 
-.cSkill{
+#Skill{
     background-color: yellow;
     font-size: large;
     padding:0%
@@ -119,7 +119,7 @@ margin: 0 !important;
 
 
 
-.cAbout{
+#About{
     background-color: blue;
     font-size: large;
     padding:0%
