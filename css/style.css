@@ -1,23 +1,18 @@
 :root{
 
-  --MyDisplayName: "Ian Logendra";
-
-  --MobileWorkColumns:1;
-  --TabletWorkColumns:1;
-  --PCWorkColumns:2;
-
-  --bgColor: white;
-
-  /* --HeaderBGColor:rgb(44, 44, 44); 
+    /* --HeaderBGColor:rgb(44, 44, 44); 
   --HeaderMyNameColor:rgb(44, 44, 44); 
   --HeaderMyNameBGColor:rgb(80, 105, 113); 
   --HeaderNavAColor:rgb(163, 196, 238); */
 
-  --MainPageTextColor: rgb(32, 91, 111); 
-
-  --HeroBannerBGColor:white; 
+  
   --navBarHeight:50px; 
-  --heroBarHeight:50px; 
+  --heroBarHeight:50px;
+  
+  --navBarTextColor:white; 
+
+
+  
 }
 h1,
 h2,
@@ -34,14 +29,20 @@ margin: 0 !important;
 
 .nav {
 
+ 
   height: var(--navbarHeight) !important;
 }
 
+
+
 .nav-item {
 
-    height: 50px;
+    height:  var(--navbarHeight) !important;
     
 }
+
+a{ color:var(--navBarTextColor)!important;
+ }
 
 
 
@@ -52,11 +53,9 @@ margin: 0 !important;
     
 } 
 
-/* a {height: var(--NavHeight);}
-
-.active {
-    height: var(--NavHeight);
-} */
+#MyHeaderName {
+  padding:0 0 0 25px;
+}
 
 .nav-right {
   align-content:flex-end;
@@ -72,6 +71,7 @@ margin: 0 !important;
   padding: 0px 15px 0px 15px;
   align-items: center;
   justify-content: center;
+  
  }
 
  .hero-banner 
@@ -102,35 +102,36 @@ margin: 0 !important;
 
 }
  
+#About{
+  background-color: blue;
+  font-size: large;
+  padding:10%
+}
 
 #Work{
 
     background-color: green;
     font-size: large;
-    padding:0%
+    padding:10%
 }
 
 
 #Skill{
     background-color: yellow;
     font-size: large;
-    padding:0%
+    padding:10%
 }
 
 
 
-#About{
-    background-color: blue;
-    font-size: large;
-    padding:0%
-}
+
 
 #Contact{
     display: flex;
     background-image: url(../images/Nice-Background.jpeg);
     background-color: #ff9d00; /* Used if the image is unavailable */
    
-    height: calc(var(--navBarHeight)/2);
+    height: calc(var(--navBarHeight)*2);
     background-size: cover;    
     background-repeat: no-repeat;
     background-position: center; 
@@ -139,6 +140,7 @@ margin: 0 !important;
     width:100% ;
     align-items: center;
     justify-content: center;
+
 }
 
 
