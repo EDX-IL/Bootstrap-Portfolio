@@ -76,21 +76,28 @@ a {height: var(--NavHeight);}
  {
  display: flex;
  flex-wrap: nowrap;
- background-color: Var(--HeroBannerBGColor);
+ /* background-color: Var(--HeroBannerBGColor); */
  height: 50px; 
+ background-size: cover;   
  background-repeat: no-repeat;
  background-position: center; 
  background-image: url("../Images/cool-background.png") ;
  /* position:  absolute; */
  /* top:15%; */
- background-size: cover;    
+ 
  width:100% ;
  align-items: center;
  justify-content: center;
- 
+  
  }
  
- 
+
+
+
+.cMain{
+  flex:grid;
+
+}
  
 
 .cWork{
@@ -115,12 +122,20 @@ a {height: var(--NavHeight);}
     padding:0%
 }
 
-.cFooter{
-    
-    background-color: red;
-    font-size: large;
-    padding:0%
+.cContact{
+    display: flex;
+    background-image: url(../images/Nice-Background.jpeg);
 
+
+    height: 25px;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: center; 
+    flex-wrap: nowrap;
+
+    width:100% ;
+    align-items: center;
+    justify-content: center;
 }
 
 

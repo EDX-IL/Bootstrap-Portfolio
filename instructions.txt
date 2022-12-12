@@ -20,7 +20,7 @@ Using Bootstrap, recreate your portfolio site with the following items:
 
 #A navigation bar
 
-A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
+#A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
 
 Include links that are applicable to your portfolio.
 
