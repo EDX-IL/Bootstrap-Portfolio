@@ -8,14 +8,16 @@
 
   --bgColor: white;
 
-  --HeaderBGColor:rgb(44, 44, 44); 
+  /* --HeaderBGColor:rgb(44, 44, 44); 
   --HeaderMyNameColor:rgb(44, 44, 44); 
   --HeaderMyNameBGColor:rgb(80, 105, 113); 
-  --HeaderNavAColor:rgb(163, 196, 238);
+  --HeaderNavAColor:rgb(163, 196, 238); */
 
   --MainPageTextColor: rgb(32, 91, 111); 
 
   --HeroBannerBGColor:white; 
+  --navBarHeight:50px; 
+  --heroBarHeight:50px; 
 }
 h1,
 h2,
@@ -32,7 +34,7 @@ margin: 0 !important;
 
 .nav {
 
-  height: 50px !important;
+  height: var(--navbarHeight) !important;
 }
 
 .nav-item {
@@ -50,11 +52,11 @@ margin: 0 !important;
     
 } 
 
-a {height: var(--NavHeight);}
+/* a {height: var(--NavHeight);}
 
 .active {
     height: var(--NavHeight);
-}
+} */
 
 .nav-right {
   align-content:flex-end;
@@ -77,11 +79,12 @@ a {height: var(--NavHeight);}
  display: flex;
  flex-wrap: nowrap;
  /* background-color: Var(--HeroBannerBGColor); */
- height: 50px; 
+ height: var(--heroBarHeight);
  background-size: cover;   
  background-repeat: no-repeat;
  background-position: center; 
  background-image: url("../Images/cool-background.png") ;
+ background-color: #ff9d00; /* Used if the image is unavailable */
  /* position:  absolute; */
  /* top:15%; */
  
@@ -122,12 +125,12 @@ a {height: var(--NavHeight);}
     padding:0%
 }
 
-.cContact{
+#Contact{
     display: flex;
     background-image: url(../images/Nice-Background.jpeg);
-
-
-    height: 25px;
+    background-color: #ff9d00; /* Used if the image is unavailable */
+   
+    height: calc(var(--navBarHeight)/2);
     background-size: cover;    
     background-repeat: no-repeat;
     background-position: center; 
