@@ -10,7 +10,7 @@
   --heroBarHeight:50px;
   
   --navBarTextColor:white; 
-
+  --footerTextColor:red; 
 
   
 }
@@ -97,7 +97,7 @@ a{ color:var(--navBarTextColor)!important;
 
 
 
-.cMain{
+.sMain{
   display:grid;
 
 }
@@ -122,10 +122,6 @@ a{ color:var(--navBarTextColor)!important;
     padding:10%
 }
 
-
-
-
-
 #Contact{
     display: flex;
     background-image: url(../images/Nice-Background.jpeg);
@@ -143,4 +139,22 @@ a{ color:var(--navBarTextColor)!important;
 
 }
 
+footer {
 
+  display: flex;
+}
+
+.myFooter-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: #ff9d00;
+}
+
+.myFooter-ItemRight{
+
+  padding: 0px 15px 0px 15px;
+  align-items: center;
+  justify-content: center;
+  color: var(--footerTextColor) !important;
+ }
