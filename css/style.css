@@ -124,8 +124,7 @@ a{ color:var(--navBarTextColor)!important;
 
 #Contact{
     display: flex;
-    background-image: url(../images/Nice-Background.jpeg);
-    background-color: #ff9d00; /* Used if the image is unavailable */
+   
    
     height: calc(var(--navBarHeight)*2);
     background-size: cover;    
@@ -140,6 +139,8 @@ a{ color:var(--navBarTextColor)!important;
 }
 
 footer {
+  background-image: url(../images/Nice-Background.jpeg);
+  background-color: #ff9d00; /* Used if the image is unavailable */
 
   display: flex;
 }
@@ -152,7 +153,11 @@ footer {
 }
 
 .myFooter-ItemRight{
-
+ 
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 20px;  
+  
   padding: 0px 15px 0px 15px;
   align-items: center;
   justify-content: center;
