@@ -11,7 +11,7 @@
 
 
 
-  --footerTextColor:rgb(255, 204, 0);    /*variable to store text color used in footer bar */
+  --footerTextColor:rgb(0, 0, 0);    /*variable to store text color used in footer bar */
 
   --HeroBannerBGColor: aqua; /*shown if hero background image not available */
   --footerBGColor: aqua; /*shown if footer background image not available */
@@ -107,28 +107,56 @@ a{ color:var(--navBarTextColor)!important;
 .sMain{
   display:grid;
 
+
+  min-height: 500px;
+  height: 70vh;
+  /* grid-template-rows: 75% 25%; */
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+  "aboutContents aboutContents "
+  "Work ";
 }
+
+
  
-#About{
+#aboutHead{
   background-color: blue;
   font-size: large;
   padding:10%
 }
 
-#Work{
+#aboutContents {
+  background-color: yellow;
+  
+
+
+}
+
+#workHead{
 
     background-color: green;
     font-size: large;
     padding:10%
 }
 
+#workContents{
+  background-color: blue;
+  display:grid; 
+}
 
-#Skill{
+
+#skillHead{
+  
     background-color: yellow;
     font-size: large;
     padding:10%
 }
 
+#skillContents{
+
+
+  background-color: green;
+}
 #Contact{
     display: flex;
    
