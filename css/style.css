@@ -4,9 +4,20 @@
   
   --navBarHeight:50px; /*variable to store navbar height*/
   --heroBarHeight:70px; /*variable to store heroBar height*/
-  
+  --footerHeight: 50px; /*variable to store footer height*/
+
+
   --navBarTextColor:white;  /*variable to store text color used in nav bar */
-  /* --footerTextColor:red;    /*variable to store text color used in footer bar */   
+
+
+
+  --footerTextColor:rgb(255, 204, 0);    /*variable to store text color used in footer bar */
+
+  --HeroBannerBGColor: aqua; /*shown if hero background image not available */
+  --footerBGColor: aqua; /*shown if footer background image not available */
+
+
+
 
   
 }
@@ -85,6 +96,10 @@ a{ color:var(--navBarTextColor)!important;
  justify-content: center;
   
  }
+
+ .hero-banner h2 {
+  padding: 0 25px 0 25px; 
+ }
  
 
 
@@ -131,8 +146,14 @@ a{ color:var(--navBarTextColor)!important;
 }
 
 footer {
-  background-image: url(../images/Nice-Background.jpeg);
-  background-color: #ff9d00; /* Used if the image is unavailable */
+  display: flex;
+  flex-wrap: nowrap;
+  height: var(--heroBarHeight);
+  background-size: cover;   
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-image: url(../images/cool-background.png);
+  background-color:Var(--footerBGColor); /* Used if the image is unavailable */
 
   display: flex;
 }
@@ -141,17 +162,31 @@ footer {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
-  background-color: #ff9d00;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+ 
 }
 
 .myFooter-ItemRight{
  
-    list-style-type: none;  
-    font-weight: bold;  
-    font-size: 20px;  
+    list-style-type: none; 
   
-  padding: 0px 15px 0px 15px;
-  align-items: center;
-  justify-content: center;
+    padding: 0px 15px 0px 15px;
+
+ 
+ }
+
+ footer a {
+     
+    font-weight: bold;  
+    font-size: 20px; 
+    align-items: center;
+    justify-content: center;
+    color: var(--footerTextColor) !important;
+ }
+
+ footer {
   color: var(--footerTextColor) !important;
+  height: var(--footerHeight);
  }
