@@ -184,9 +184,8 @@ a{ color:var(--navBarTextColor)!important;
   display: flex;
   position: fixed !important;
   bottom: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  right: 15px;
+    left: 0;
    flex-wrap: nowrap;
   height: var(--footerHeight);
   background-size: cover;   
@@ -227,4 +226,9 @@ a{ color:var(--navBarTextColor)!important;
  footer {
   color: var(--footerTextColor) !important;
   height: var(--footerHeight);
+ }
+
+ .btn {
+  font-weight: bolder !important;
+
  }
