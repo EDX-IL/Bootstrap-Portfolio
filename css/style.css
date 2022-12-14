@@ -110,7 +110,6 @@ a{ color:var(--navBarTextColor)!important;
 
   min-height: 500px;
   height: 70vh;
-  /* grid-template-rows: 75% 25%; */
   grid-template-columns: 20% 80%;
   grid-template-areas:
   "aboutContents aboutContents "
@@ -137,11 +136,13 @@ a{ color:var(--navBarTextColor)!important;
     background-color: green;
     font-size: large;
     padding:10%
+  
 }
 
 #workContents{
   background-color: blue;
   display:grid; 
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 
