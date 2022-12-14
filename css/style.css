@@ -3,7 +3,7 @@
 
   
   --navBarHeight:50px; /*variable to store navbar height*/
-  --heroBarHeight:50px; /*variable to store heroBar height*/
+  --heroBarHeight:70px; /*variable to store heroBar height*/
   
   --navBarTextColor:white;  /*variable to store text color used in nav bar */
   /* --footerTextColor:red;    /*variable to store text color used in footer bar */   
@@ -74,16 +74,12 @@ a{ color:var(--navBarTextColor)!important;
  {
  display: flex;
  flex-wrap: nowrap;
- /* background-color: Var(--HeroBannerBGColor); */
  height: var(--heroBarHeight);
  background-size: cover;   
  background-repeat: no-repeat;
  background-position: center; 
  background-image: url("../Images/cool-background.png") ;
- background-color: #ff9d00; /* Used if the image is unavailable */
- /* position:  absolute; */
- /* top:15%; */
- 
+ background-color:Var(--HeroBannerBGColor); /* Used if the image is unavailable */
  width:100% ;
  align-items: center;
  justify-content: center;
