@@ -21,6 +21,7 @@
 
   
 }
+
 h1,
 h2,
 h3,
@@ -33,6 +34,8 @@ margin: 0 !important;
 p {
 margin: 0 !important;
 }
+
+
 
 .nav {
 
@@ -141,8 +144,8 @@ a{ color:var(--navBarTextColor)!important;
 
 #workContents{
   background-color: blue;
-  display:grid; 
-  grid-template-columns: 1fr 1fr 1fr;
+  /* display:grid; 
+  grid-template-columns: 1fr 1fr 1fr; */
 }
 
 
@@ -158,11 +161,13 @@ a{ color:var(--navBarTextColor)!important;
 
   background-color: green;
 }
-#Contact{
+
+
+#contact{
     display: flex;
    
    
-    height: calc(var(--navBarHeight)*2);
+    height: calc(var(--footerHeight));
     background-size: cover;    
     background-repeat: no-repeat;
     background-position: center; 
@@ -174,17 +179,21 @@ a{ color:var(--navBarTextColor)!important;
 
 }
 
-footer {
+.myFooter {
+  /*there space between footer and bottom of body - no idea how to remove*/
   display: flex;
-  flex-wrap: nowrap;
-  height: var(--heroBarHeight);
+  position: fixed !important;
+  bottom: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+   flex-wrap: nowrap;
+  height: var(--footerHeight);
   background-size: cover;   
   background-repeat: no-repeat;
-  background-position: center; 
-  background-image: url(../images/cool-background.png);
+   background-image: url(../images/cool-background.png);
   background-color:Var(--footerBGColor); /* Used if the image is unavailable */
 
-  display: flex;
 }
 
 .myFooter-right {
