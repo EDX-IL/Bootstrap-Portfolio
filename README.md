@@ -16,9 +16,10 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+Create a webpage to demonstrate and link to projects which show off (or not) my skills using css, html and javascript. 
 
 ### The challenge
 
@@ -63,16 +64,21 @@ Deploy Bootstrap-powered portfolio to GitHub Pages.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+(./images/screenshot-temp.pngscreenshot-temp.png)
 
 
 ### Links
 
 - Solution URL: https://github.com/EDX-IL/Bootstrap-Portfolio
-- Live Site URL: https://edx-il.github.io/Bootstrap-Portfolio/
+- Live Site URL: https://edx-il.github.io/Bootstrap-Portfolio/index.html
 
 ## My process
+
+I started with the navbar and wanted to have that with a hamburger button on collapse. So i used Bootstrap 4.3 navbar code and modified that.
+I also use the navbar code for the footer. I ensured the footer stays at the boon no matter what size of screen
+I then added a herobar and use bootstrap jumbotron to display my photo and "working class hero" as pun on hero section. 
+I then created flex boxes for the about me, work and skill sections.
+I used a flex grid and cards for the work sections. 
 
 ### Built with
 
@@ -82,7 +88,6 @@ Deploy Bootstrap-powered portfolio to GitHub Pages.
 - CSS Grid
 - Bootstap
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -93,7 +98,6 @@ To write / edit the README.MD file as i go. I left it to the end in the last pro
 How to use Bootstrap code. Adding in the template code and editing it to my needs. Adding in the standard code for Bootstrap 4.3.1
 I got a better understanding of using Classes and IDs
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
 
@@ -113,41 +117,33 @@ const proudOfThisFunc = () => {
 };
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I need to learn how to lay out things better so they look good and how flexbox, flexgrid and boostrap work.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
 Git cheat sheet
 https://education.github.com/git-cheat-sheet-education.pdf
+This helped me deploy my project
 
 Bootstrap
 https://getbootstrap.com/docs/4.3/getting-started/introduction/
+lots of good information on how to use bootstrap in my projects with good examples
 
 Bootstrap CheatSheet
 https://hackerthemes.com/bootstrap-cheatsheet/
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
+-
 ## Author
   Ian Logendra
 - Website - In development!
 - GitHub - https://github.com/EDX-IL
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Mum, Dad and the instructors and TA's
